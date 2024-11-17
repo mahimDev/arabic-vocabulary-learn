@@ -7,7 +7,7 @@ const NavBer = () => {
                 <div className="flex justify-between  w-11/12 mx-auto items-center   ">
                     <ul className="flex gap-4 text-xl  font-semibold">
                         <NavLink> <li>Home</li></NavLink>
-                        <NavLink ><li>Start-learning</li></NavLink>
+                        <NavLink to={`learning`}><li>Start-learning</li></NavLink>
                         <NavLink ><li>Tutorials</li></NavLink>
                         <NavLink ><li>About-us</li></NavLink>
                         <NavLink ><li>(my-profile)</li></NavLink>
