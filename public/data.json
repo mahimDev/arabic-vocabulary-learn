@@ -6,9 +6,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 1,
+    "id": 1,
     "difficulty": "medium",
-    "Lesson_no": 10
+    "lesson_no": 10
   },
   {
     "word": "يأكل",
@@ -17,9 +17,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 2,
+    "id": 2,
     "difficulty": "medium",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "شكرا",
@@ -28,9 +28,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 3,
+    "id": 3,
     "difficulty": "medium",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "يأكل",
@@ -39,9 +39,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 4,
+    "id": 4,
     "difficulty": "easy",
-    "Lesson_no": 2
+    "lesson_no": 2
   },
   {
     "word": "سلام",
@@ -50,9 +50,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 5,
+    "id": 5,
     "difficulty": "difficult",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "سلام",
@@ -61,9 +61,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 6,
+    "id": 6,
     "difficulty": "difficult",
-    "Lesson_no": 3
+    "lesson_no": 3
   },
   {
     "word": "كتاب",
@@ -72,9 +72,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 7,
+    "id": 7,
     "difficulty": "medium",
-    "Lesson_no": 9
+    "lesson_no": 9
   },
   {
     "word": "سلام",
@@ -83,9 +83,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 8,
+    "id": 8,
     "difficulty": "medium",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "سلام",
@@ -94,9 +94,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 9,
+    "id": 9,
     "difficulty": "medium",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "سعيد",
@@ -105,9 +105,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 10,
+    "id": 10,
     "difficulty": "easy",
-    "Lesson_no": 9
+    "lesson_no": 9
   },
   {
     "word": "سعيد",
@@ -116,9 +116,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 11,
+    "id": 11,
     "difficulty": "difficult",
-    "Lesson_no": 8
+    "lesson_no": 8
   },
   {
     "word": "سعيد",
@@ -127,9 +127,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 12,
+    "id": 12,
     "difficulty": "difficult",
-    "Lesson_no": 9
+    "lesson_no": 9
   },
   {
     "word": "كتاب",
@@ -138,9 +138,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 13,
+    "id": 13,
     "difficulty": "easy",
-    "Lesson_no": 2
+    "lesson_no": 2
   },
   {
     "word": "كتاب",
@@ -149,9 +149,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 14,
+    "id": 14,
     "difficulty": "medium",
-    "Lesson_no": 4
+    "lesson_no": 4
   },
   {
     "word": "كتاب",
@@ -160,9 +160,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 15,
+    "id": 15,
     "difficulty": "easy",
-    "Lesson_no": 3
+    "lesson_no": 3
   },
   {
     "word": "يأكل",
@@ -171,9 +171,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 16,
+    "id": 16,
     "difficulty": "easy",
-    "Lesson_no": 10
+    "lesson_no": 10
   },
   {
     "word": "سعيد",
@@ -182,9 +182,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 17,
+    "id": 17,
     "difficulty": "easy",
-    "Lesson_no": 2
+    "lesson_no": 2
   },
   {
     "word": "سلام",
@@ -193,9 +193,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 18,
+    "id": 18,
     "difficulty": "medium",
-    "Lesson_no": 1
+    "lesson_no": 1
   },
   {
     "word": "كتاب",
@@ -204,9 +204,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 19,
+    "id": 19,
     "difficulty": "difficult",
-    "Lesson_no": 8
+    "lesson_no": 8
   },
   {
     "word": "سعيد",
@@ -215,9 +215,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 20,
+    "id": 20,
     "difficulty": "easy",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "سلام",
@@ -226,9 +226,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 21,
+    "id": 21,
     "difficulty": "medium",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "شكرا",
@@ -237,9 +237,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 22,
+    "id": 22,
     "difficulty": "difficult",
-    "Lesson_no": 10
+    "lesson_no": 10
   },
   {
     "word": "شكرا",
@@ -248,9 +248,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 23,
+    "id": 23,
     "difficulty": "medium",
-    "Lesson_no": 4
+    "lesson_no": 4
   },
   {
     "word": "سلام",
@@ -259,9 +259,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 24,
+    "id": 24,
     "difficulty": "easy",
-    "Lesson_no": 9
+    "lesson_no": 9
   },
   {
     "word": "شكرا",
@@ -270,9 +270,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 25,
+    "id": 25,
     "difficulty": "easy",
-    "Lesson_no": 3
+    "lesson_no": 3
   },
   {
     "word": "كتاب",
@@ -281,9 +281,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 26,
+    "id": 26,
     "difficulty": "difficult",
-    "Lesson_no": 1
+    "lesson_no": 1
   },
   {
     "word": "كتاب",
@@ -292,9 +292,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 27,
+    "id": 27,
     "difficulty": "medium",
-    "Lesson_no": 3
+    "lesson_no": 3
   },
   {
     "word": "يأكل",
@@ -303,9 +303,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 28,
+    "id": 28,
     "difficulty": "difficult",
-    "Lesson_no": 8
+    "lesson_no": 8
   },
   {
     "word": "كتاب",
@@ -314,9 +314,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 29,
+    "id": 29,
     "difficulty": "difficult",
-    "Lesson_no": 3
+    "lesson_no": 3
   },
   {
     "word": "يأكل",
@@ -325,9 +325,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 30,
+    "id": 30,
     "difficulty": "easy",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "سعيد",
@@ -336,9 +336,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 31,
+    "id": 31,
     "difficulty": "medium",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "سعيد",
@@ -347,9 +347,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 32,
+    "id": 32,
     "difficulty": "difficult",
-    "Lesson_no": 2
+    "lesson_no": 2
   },
   {
     "word": "سعيد",
@@ -358,9 +358,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 33,
+    "id": 33,
     "difficulty": "difficult",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "كتاب",
@@ -369,9 +369,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 34,
+    "id": 34,
     "difficulty": "difficult",
-    "Lesson_no": 9
+    "lesson_no": 9
   },
   {
     "word": "سعيد",
@@ -380,9 +380,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 35,
+    "id": 35,
     "difficulty": "easy",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "شكرا",
@@ -391,9 +391,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 36,
+    "id": 36,
     "difficulty": "medium",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "كتاب",
@@ -402,9 +402,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 37,
+    "id": 37,
     "difficulty": "difficult",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "يأكل",
@@ -413,9 +413,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 38,
+    "id": 38,
     "difficulty": "medium",
-    "Lesson_no": 4
+    "lesson_no": 4
   },
   {
     "word": "يأكل",
@@ -424,9 +424,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 39,
+    "id": 39,
     "difficulty": "medium",
-    "Lesson_no": 2
+    "lesson_no": 2
   },
   {
     "word": "كتاب",
@@ -435,9 +435,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 40,
+    "id": 40,
     "difficulty": "easy",
-    "Lesson_no": 3
+    "lesson_no": 3
   },
   {
     "word": "شكرا",
@@ -446,9 +446,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 41,
+    "id": 41,
     "difficulty": "medium",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "يأكل",
@@ -457,9 +457,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 42,
+    "id": 42,
     "difficulty": "medium",
-    "Lesson_no": 4
+    "lesson_no": 4
   },
   {
     "word": "سلام",
@@ -468,9 +468,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 43,
+    "id": 43,
     "difficulty": "easy",
-    "Lesson_no": 9
+    "lesson_no": 9
   },
   {
     "word": "يأكل",
@@ -479,9 +479,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 44,
+    "id": 44,
     "difficulty": "easy",
-    "Lesson_no": 3
+    "lesson_no": 3
   },
   {
     "word": "سلام",
@@ -490,9 +490,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 45,
+    "id": 45,
     "difficulty": "medium",
-    "Lesson_no": 4
+    "lesson_no": 4
   },
   {
     "word": "سعيد",
@@ -501,9 +501,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 46,
+    "id": 46,
     "difficulty": "medium",
-    "Lesson_no": 2
+    "lesson_no": 2
   },
   {
     "word": "سلام",
@@ -512,9 +512,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 47,
+    "id": 47,
     "difficulty": "easy",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "سعيد",
@@ -523,9 +523,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 48,
+    "id": 48,
     "difficulty": "medium",
-    "Lesson_no": 8
+    "lesson_no": 8
   },
   {
     "word": "سعيد",
@@ -534,9 +534,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 49,
+    "id": 49,
     "difficulty": "medium",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "شكرا",
@@ -545,9 +545,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 50,
+    "id": 50,
     "difficulty": "difficult",
-    "Lesson_no": 8
+    "lesson_no": 8
   },
   {
     "word": "كتاب",
@@ -556,9 +556,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 51,
+    "id": 51,
     "difficulty": "medium",
-    "Lesson_no": 9
+    "lesson_no": 9
   },
   {
     "word": "كتاب",
@@ -567,9 +567,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 52,
+    "id": 52,
     "difficulty": "medium",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "كتاب",
@@ -578,9 +578,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 53,
+    "id": 53,
     "difficulty": "medium",
-    "Lesson_no": 4
+    "lesson_no": 4
   },
   {
     "word": "سعيد",
@@ -589,9 +589,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 54,
+    "id": 54,
     "difficulty": "difficult",
-    "Lesson_no": 4
+    "lesson_no": 4
   },
   {
     "word": "كتاب",
@@ -600,9 +600,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 55,
+    "id": 55,
     "difficulty": "medium",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "سلام",
@@ -611,9 +611,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 56,
+    "id": 56,
     "difficulty": "easy",
-    "Lesson_no": 8
+    "lesson_no": 8
   },
   {
     "word": "شكرا",
@@ -622,9 +622,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 57,
+    "id": 57,
     "difficulty": "medium",
-    "Lesson_no": 3
+    "lesson_no": 3
   },
   {
     "word": "شكرا",
@@ -633,9 +633,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 58,
+    "id": 58,
     "difficulty": "medium",
-    "Lesson_no": 4
+    "lesson_no": 4
   },
   {
     "word": "سلام",
@@ -644,9 +644,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 59,
+    "id": 59,
     "difficulty": "easy",
-    "Lesson_no": 2
+    "lesson_no": 2
   },
   {
     "word": "كتاب",
@@ -655,9 +655,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 60,
+    "id": 60,
     "difficulty": "difficult",
-    "Lesson_no": 4
+    "lesson_no": 4
   },
   {
     "word": "كتاب",
@@ -666,9 +666,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 61,
+    "id": 61,
     "difficulty": "difficult",
-    "Lesson_no": 1
+    "lesson_no": 1
   },
   {
     "word": "شكرا",
@@ -677,9 +677,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 62,
+    "id": 62,
     "difficulty": "medium",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "سلام",
@@ -688,9 +688,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 63,
+    "id": 63,
     "difficulty": "difficult",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "يأكل",
@@ -699,9 +699,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 64,
+    "id": 64,
     "difficulty": "medium",
-    "Lesson_no": 3
+    "lesson_no": 3
   },
   {
     "word": "سعيد",
@@ -710,9 +710,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 65,
+    "id": 65,
     "difficulty": "easy",
-    "Lesson_no": 10
+    "lesson_no": 10
   },
   {
     "word": "شكرا",
@@ -721,9 +721,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 66,
+    "id": 66,
     "difficulty": "difficult",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "سعيد",
@@ -732,9 +732,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 67,
+    "id": 67,
     "difficulty": "difficult",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "سعيد",
@@ -743,9 +743,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 68,
+    "id": 68,
     "difficulty": "easy",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "يأكل",
@@ -754,9 +754,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 69,
+    "id": 69,
     "difficulty": "easy",
-    "Lesson_no": 10
+    "lesson_no": 10
   },
   {
     "word": "كتاب",
@@ -765,9 +765,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 70,
+    "id": 70,
     "difficulty": "medium",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "كتاب",
@@ -776,9 +776,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 71,
+    "id": 71,
     "difficulty": "medium",
-    "Lesson_no": 2
+    "lesson_no": 2
   },
   {
     "word": "يأكل",
@@ -787,9 +787,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 72,
+    "id": 72,
     "difficulty": "difficult",
-    "Lesson_no": 8
+    "lesson_no": 8
   },
   {
     "word": "كتاب",
@@ -798,9 +798,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 73,
+    "id": 73,
     "difficulty": "difficult",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "كتاب",
@@ -809,9 +809,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 74,
+    "id": 74,
     "difficulty": "medium",
-    "Lesson_no": 3
+    "lesson_no": 3
   },
   {
     "word": "سلام",
@@ -820,9 +820,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 75,
+    "id": 75,
     "difficulty": "easy",
-    "Lesson_no": 9
+    "lesson_no": 9
   },
   {
     "word": "سعيد",
@@ -831,9 +831,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 76,
+    "id": 76,
     "difficulty": "medium",
-    "Lesson_no": 8
+    "lesson_no": 8
   },
   {
     "word": "سلام",
@@ -842,9 +842,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 77,
+    "id": 77,
     "difficulty": "difficult",
-    "Lesson_no": 2
+    "lesson_no": 2
   },
   {
     "word": "يأكل",
@@ -853,9 +853,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 78,
+    "id": 78,
     "difficulty": "difficult",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "شكرا",
@@ -864,9 +864,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 79,
+    "id": 79,
     "difficulty": "easy",
-    "Lesson_no": 10
+    "lesson_no": 10
   },
   {
     "word": "يأكل",
@@ -875,9 +875,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 80,
+    "id": 80,
     "difficulty": "easy",
-    "Lesson_no": 8
+    "lesson_no": 8
   },
   {
     "word": "شكرا",
@@ -886,9 +886,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 81,
+    "id": 81,
     "difficulty": "difficult",
-    "Lesson_no": 1
+    "lesson_no": 1
   },
   {
     "word": "يأكل",
@@ -897,9 +897,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 82,
+    "id": 82,
     "difficulty": "easy",
-    "Lesson_no": 1
+    "lesson_no": 1
   },
   {
     "word": "سعيد",
@@ -908,9 +908,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 83,
+    "id": 83,
     "difficulty": "medium",
-    "Lesson_no": 1
+    "lesson_no": 1
   },
   {
     "word": "شكرا",
@@ -919,9 +919,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 84,
+    "id": 84,
     "difficulty": "easy",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "كتاب",
@@ -930,9 +930,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 85,
+    "id": 85,
     "difficulty": "difficult",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "كتاب",
@@ -941,9 +941,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 86,
+    "id": 86,
     "difficulty": "medium",
-    "Lesson_no": 8
+    "lesson_no": 8
   },
   {
     "word": "كتاب",
@@ -952,9 +952,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 87,
+    "id": 87,
     "difficulty": "easy",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "سلام",
@@ -963,9 +963,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 88,
+    "id": 88,
     "difficulty": "medium",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "شكرا",
@@ -974,9 +974,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 89,
+    "id": 89,
     "difficulty": "difficult",
-    "Lesson_no": 10
+    "lesson_no": 10
   },
   {
     "word": "سعيد",
@@ -985,9 +985,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 90,
+    "id": 90,
     "difficulty": "difficult",
-    "Lesson_no": 8
+    "lesson_no": 8
   },
   {
     "word": "كتاب",
@@ -996,9 +996,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 91,
+    "id": 91,
     "difficulty": "difficult",
-    "Lesson_no": 1
+    "lesson_no": 1
   },
   {
     "word": "يأكل",
@@ -1007,9 +1007,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 92,
+    "id": 92,
     "difficulty": "easy",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "سعيد",
@@ -1018,9 +1018,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 93,
+    "id": 93,
     "difficulty": "easy",
-    "Lesson_no": 10
+    "lesson_no": 10
   },
   {
     "word": "كتاب",
@@ -1029,9 +1029,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 94,
+    "id": 94,
     "difficulty": "medium",
-    "Lesson_no": 2
+    "lesson_no": 2
   },
   {
     "word": "سلام",
@@ -1040,9 +1040,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 95,
+    "id": 95,
     "difficulty": "medium",
-    "Lesson_no": 1
+    "lesson_no": 1
   },
   {
     "word": "شكرا",
@@ -1051,9 +1051,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 96,
+    "id": 96,
     "difficulty": "medium",
-    "Lesson_no": 2
+    "lesson_no": 2
   },
   {
     "word": "سلام",
@@ -1062,9 +1062,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 97,
+    "id": 97,
     "difficulty": "easy",
-    "Lesson_no": 2
+    "lesson_no": 2
   },
   {
     "word": "يأكل",
@@ -1073,9 +1073,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 98,
+    "id": 98,
     "difficulty": "easy",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "يأكل",
@@ -1084,9 +1084,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 99,
+    "id": 99,
     "difficulty": "difficult",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "شكرا",
@@ -1095,9 +1095,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 100,
+    "id": 100,
     "difficulty": "easy",
-    "Lesson_no": 4
+    "lesson_no": 4
   },
   {
     "word": "كتاب",
@@ -1106,9 +1106,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 101,
+    "id": 101,
     "difficulty": "medium",
-    "Lesson_no": 10
+    "lesson_no": 10
   },
   {
     "word": "كتاب",
@@ -1117,9 +1117,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 102,
+    "id": 102,
     "difficulty": "easy",
-    "Lesson_no": 2
+    "lesson_no": 2
   },
   {
     "word": "سلام",
@@ -1128,9 +1128,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 103,
+    "id": 103,
     "difficulty": "difficult",
-    "Lesson_no": 9
+    "lesson_no": 9
   },
   {
     "word": "سعيد",
@@ -1139,9 +1139,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 104,
+    "id": 104,
     "difficulty": "medium",
-    "Lesson_no": 4
+    "lesson_no": 4
   },
   {
     "word": "سلام",
@@ -1150,9 +1150,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 105,
+    "id": 105,
     "difficulty": "easy",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "شكرا",
@@ -1161,9 +1161,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 106,
+    "id": 106,
     "difficulty": "difficult",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "كتاب",
@@ -1172,9 +1172,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 107,
+    "id": 107,
     "difficulty": "medium",
-    "Lesson_no": 9
+    "lesson_no": 9
   },
   {
     "word": "سعيد",
@@ -1183,9 +1183,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 108,
+    "id": 108,
     "difficulty": "easy",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "كتاب",
@@ -1194,9 +1194,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 109,
+    "id": 109,
     "difficulty": "difficult",
-    "Lesson_no": 1
+    "lesson_no": 1
   },
   {
     "word": "كتاب",
@@ -1205,9 +1205,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 110,
+    "id": 110,
     "difficulty": "medium",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "يأكل",
@@ -1216,9 +1216,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 111,
+    "id": 111,
     "difficulty": "medium",
-    "Lesson_no": 10
+    "lesson_no": 10
   },
   {
     "word": "كتاب",
@@ -1227,9 +1227,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 112,
+    "id": 112,
     "difficulty": "easy",
-    "Lesson_no": 2
+    "lesson_no": 2
   },
   {
     "word": "كتاب",
@@ -1238,9 +1238,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 113,
+    "id": 113,
     "difficulty": "easy",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "شكرا",
@@ -1249,9 +1249,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 114,
+    "id": 114,
     "difficulty": "easy",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "كتاب",
@@ -1260,9 +1260,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 115,
+    "id": 115,
     "difficulty": "difficult",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "سعيد",
@@ -1271,9 +1271,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 116,
+    "id": 116,
     "difficulty": "easy",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "سلام",
@@ -1282,9 +1282,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 117,
+    "id": 117,
     "difficulty": "easy",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "يأكل",
@@ -1293,9 +1293,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 118,
+    "id": 118,
     "difficulty": "medium",
-    "Lesson_no": 1
+    "lesson_no": 1
   },
   {
     "word": "سعيد",
@@ -1304,9 +1304,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 119,
+    "id": 119,
     "difficulty": "difficult",
-    "Lesson_no": 2
+    "lesson_no": 2
   },
   {
     "word": "سعيد",
@@ -1315,9 +1315,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 120,
+    "id": 120,
     "difficulty": "medium",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "سعيد",
@@ -1326,9 +1326,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 121,
+    "id": 121,
     "difficulty": "easy",
-    "Lesson_no": 4
+    "lesson_no": 4
   },
   {
     "word": "سعيد",
@@ -1337,9 +1337,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 122,
+    "id": 122,
     "difficulty": "easy",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "كتاب",
@@ -1348,9 +1348,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 123,
+    "id": 123,
     "difficulty": "medium",
-    "Lesson_no": 3
+    "lesson_no": 3
   },
   {
     "word": "شكرا",
@@ -1359,9 +1359,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 124,
+    "id": 124,
     "difficulty": "medium",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "سعيد",
@@ -1370,9 +1370,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 125,
+    "id": 125,
     "difficulty": "difficult",
-    "Lesson_no": 1
+    "lesson_no": 1
   },
   {
     "word": "سعيد",
@@ -1381,9 +1381,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 126,
+    "id": 126,
     "difficulty": "medium",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "شكرا",
@@ -1392,9 +1392,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 127,
+    "id": 127,
     "difficulty": "difficult",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "شكرا",
@@ -1403,9 +1403,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 128,
+    "id": 128,
     "difficulty": "difficult",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "يأكل",
@@ -1414,9 +1414,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 129,
+    "id": 129,
     "difficulty": "easy",
-    "Lesson_no": 9
+    "lesson_no": 9
   },
   {
     "word": "كتاب",
@@ -1425,9 +1425,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 130,
+    "id": 130,
     "difficulty": "medium",
-    "Lesson_no": 4
+    "lesson_no": 4
   },
   {
     "word": "سعيد",
@@ -1436,9 +1436,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 131,
+    "id": 131,
     "difficulty": "easy",
-    "Lesson_no": 9
+    "lesson_no": 9
   },
   {
     "word": "كتاب",
@@ -1447,9 +1447,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 132,
+    "id": 132,
     "difficulty": "difficult",
-    "Lesson_no": 1
+    "lesson_no": 1
   },
   {
     "word": "سلام",
@@ -1458,9 +1458,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 133,
+    "id": 133,
     "difficulty": "medium",
-    "Lesson_no": 8
+    "lesson_no": 8
   },
   {
     "word": "شكرا",
@@ -1469,9 +1469,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 134,
+    "id": 134,
     "difficulty": "medium",
-    "Lesson_no": 3
+    "lesson_no": 3
   },
   {
     "word": "سلام",
@@ -1480,9 +1480,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 135,
+    "id": 135,
     "difficulty": "medium",
-    "Lesson_no": 3
+    "lesson_no": 3
   },
   {
     "word": "سلام",
@@ -1491,9 +1491,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 136,
+    "id": 136,
     "difficulty": "difficult",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "سعيد",
@@ -1502,9 +1502,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 137,
+    "id": 137,
     "difficulty": "difficult",
-    "Lesson_no": 1
+    "lesson_no": 1
   },
   {
     "word": "سلام",
@@ -1513,9 +1513,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 138,
+    "id": 138,
     "difficulty": "easy",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "كتاب",
@@ -1524,9 +1524,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 139,
+    "id": 139,
     "difficulty": "medium",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "يأكل",
@@ -1535,9 +1535,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 140,
+    "id": 140,
     "difficulty": "easy",
-    "Lesson_no": 3
+    "lesson_no": 3
   },
   {
     "word": "شكرا",
@@ -1546,9 +1546,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 141,
+    "id": 141,
     "difficulty": "difficult",
-    "Lesson_no": 9
+    "lesson_no": 9
   },
   {
     "word": "سلام",
@@ -1557,9 +1557,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 142,
+    "id": 142,
     "difficulty": "difficult",
-    "Lesson_no": 8
+    "lesson_no": 8
   },
   {
     "word": "كتاب",
@@ -1568,9 +1568,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 143,
+    "id": 143,
     "difficulty": "easy",
-    "Lesson_no": 1
+    "lesson_no": 1
   },
   {
     "word": "سلام",
@@ -1579,9 +1579,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 144,
+    "id": 144,
     "difficulty": "easy",
-    "Lesson_no": 9
+    "lesson_no": 9
   },
   {
     "word": "شكرا",
@@ -1590,9 +1590,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 145,
+    "id": 145,
     "difficulty": "difficult",
-    "Lesson_no": 4
+    "lesson_no": 4
   },
   {
     "word": "يأكل",
@@ -1601,9 +1601,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 146,
+    "id": 146,
     "difficulty": "easy",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "سعيد",
@@ -1612,9 +1612,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 147,
+    "id": 147,
     "difficulty": "medium",
-    "Lesson_no": 9
+    "lesson_no": 9
   },
   {
     "word": "سعيد",
@@ -1623,9 +1623,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 148,
+    "id": 148,
     "difficulty": "medium",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "سلام",
@@ -1634,9 +1634,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 149,
+    "id": 149,
     "difficulty": "difficult",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "سعيد",
@@ -1645,9 +1645,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 150,
+    "id": 150,
     "difficulty": "medium",
-    "Lesson_no": 1
+    "lesson_no": 1
   },
   {
     "word": "يأكل",
@@ -1656,9 +1656,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 151,
+    "id": 151,
     "difficulty": "medium",
-    "Lesson_no": 3
+    "lesson_no": 3
   },
   {
     "word": "شكرا",
@@ -1667,9 +1667,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 152,
+    "id": 152,
     "difficulty": "difficult",
-    "Lesson_no": 8
+    "lesson_no": 8
   },
   {
     "word": "سعيد",
@@ -1678,9 +1678,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 153,
+    "id": 153,
     "difficulty": "difficult",
-    "Lesson_no": 2
+    "lesson_no": 2
   },
   {
     "word": "يأكل",
@@ -1689,9 +1689,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 154,
+    "id": 154,
     "difficulty": "easy",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "يأكل",
@@ -1700,9 +1700,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 155,
+    "id": 155,
     "difficulty": "difficult",
-    "Lesson_no": 4
+    "lesson_no": 4
   },
   {
     "word": "شكرا",
@@ -1711,9 +1711,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 156,
+    "id": 156,
     "difficulty": "easy",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "يأكل",
@@ -1722,9 +1722,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 157,
+    "id": 157,
     "difficulty": "medium",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "كتاب",
@@ -1733,9 +1733,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 158,
+    "id": 158,
     "difficulty": "difficult",
-    "Lesson_no": 1
+    "lesson_no": 1
   },
   {
     "word": "شكرا",
@@ -1744,9 +1744,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 159,
+    "id": 159,
     "difficulty": "difficult",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "يأكل",
@@ -1755,9 +1755,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 160,
+    "id": 160,
     "difficulty": "difficult",
-    "Lesson_no": 3
+    "lesson_no": 3
   },
   {
     "word": "شكرا",
@@ -1766,9 +1766,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 161,
+    "id": 161,
     "difficulty": "medium",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "سلام",
@@ -1777,9 +1777,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 162,
+    "id": 162,
     "difficulty": "difficult",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "سلام",
@@ -1788,9 +1788,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 163,
+    "id": 163,
     "difficulty": "easy",
-    "Lesson_no": 2
+    "lesson_no": 2
   },
   {
     "word": "شكرا",
@@ -1799,9 +1799,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 164,
+    "id": 164,
     "difficulty": "easy",
-    "Lesson_no": 1
+    "lesson_no": 1
   },
   {
     "word": "شكرا",
@@ -1810,9 +1810,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 165,
+    "id": 165,
     "difficulty": "easy",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "سعيد",
@@ -1821,9 +1821,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 166,
+    "id": 166,
     "difficulty": "easy",
-    "Lesson_no": 9
+    "lesson_no": 9
   },
   {
     "word": "شكرا",
@@ -1832,9 +1832,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 167,
+    "id": 167,
     "difficulty": "medium",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "يأكل",
@@ -1843,9 +1843,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 168,
+    "id": 168,
     "difficulty": "difficult",
-    "Lesson_no": 4
+    "lesson_no": 4
   },
   {
     "word": "سلام",
@@ -1854,9 +1854,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 169,
+    "id": 169,
     "difficulty": "medium",
-    "Lesson_no": 4
+    "lesson_no": 4
   },
   {
     "word": "شكرا",
@@ -1865,9 +1865,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 170,
+    "id": 170,
     "difficulty": "medium",
-    "Lesson_no": 3
+    "lesson_no": 3
   },
   {
     "word": "سعيد",
@@ -1876,9 +1876,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 171,
+    "id": 171,
     "difficulty": "medium",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "شكرا",
@@ -1887,9 +1887,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 172,
+    "id": 172,
     "difficulty": "medium",
-    "Lesson_no": 10
+    "lesson_no": 10
   },
   {
     "word": "كتاب",
@@ -1898,9 +1898,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 173,
+    "id": 173,
     "difficulty": "difficult",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "سعيد",
@@ -1909,9 +1909,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 174,
+    "id": 174,
     "difficulty": "medium",
-    "Lesson_no": 4
+    "lesson_no": 4
   },
   {
     "word": "يأكل",
@@ -1920,9 +1920,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 175,
+    "id": 175,
     "difficulty": "easy",
-    "Lesson_no": 1
+    "lesson_no": 1
   },
   {
     "word": "سعيد",
@@ -1931,9 +1931,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 176,
+    "id": 176,
     "difficulty": "medium",
-    "Lesson_no": 7
+    "lesson_no": 7
   },
   {
     "word": "شكرا",
@@ -1942,9 +1942,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 177,
+    "id": 177,
     "difficulty": "easy",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "سلام",
@@ -1953,9 +1953,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 178,
+    "id": 178,
     "difficulty": "medium",
-    "Lesson_no": 9
+    "lesson_no": 9
   },
   {
     "word": "يأكل",
@@ -1964,9 +1964,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 179,
+    "id": 179,
     "difficulty": "easy",
-    "Lesson_no": 4
+    "lesson_no": 4
   },
   {
     "word": "يأكل",
@@ -1975,9 +1975,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 180,
+    "id": 180,
     "difficulty": "easy",
-    "Lesson_no": 10
+    "lesson_no": 10
   },
   {
     "word": "سلام",
@@ -1986,9 +1986,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 181,
+    "id": 181,
     "difficulty": "medium",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "كتاب",
@@ -1997,9 +1997,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 182,
+    "id": 182,
     "difficulty": "difficult",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "سعيد",
@@ -2008,9 +2008,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 183,
+    "id": 183,
     "difficulty": "easy",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "سعيد",
@@ -2019,9 +2019,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 184,
+    "id": 184,
     "difficulty": "easy",
-    "Lesson_no": 3
+    "lesson_no": 3
   },
   {
     "word": "سلام",
@@ -2030,9 +2030,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 185,
+    "id": 185,
     "difficulty": "easy",
-    "Lesson_no": 1
+    "lesson_no": 1
   },
   {
     "word": "سعيد",
@@ -2041,9 +2041,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 186,
+    "id": 186,
     "difficulty": "easy",
-    "Lesson_no": 2
+    "lesson_no": 2
   },
   {
     "word": "شكرا",
@@ -2052,9 +2052,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 187,
+    "id": 187,
     "difficulty": "medium",
-    "Lesson_no": 5
+    "lesson_no": 5
   },
   {
     "word": "كتاب",
@@ -2063,9 +2063,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 188,
+    "id": 188,
     "difficulty": "medium",
-    "Lesson_no": 8
+    "lesson_no": 8
   },
   {
     "word": "شكرا",
@@ -2074,9 +2074,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 189,
+    "id": 189,
     "difficulty": "easy",
-    "Lesson_no": 2
+    "lesson_no": 2
   },
   {
     "word": "سلام",
@@ -2085,9 +2085,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 190,
+    "id": 190,
     "difficulty": "easy",
-    "Lesson_no": 1
+    "lesson_no": 1
   },
   {
     "word": "شكرا",
@@ -2096,9 +2096,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 191,
+    "id": 191,
     "difficulty": "easy",
-    "Lesson_no": 2
+    "lesson_no": 2
   },
   {
     "word": "كتاب",
@@ -2107,9 +2107,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When referring to a book",
     "example": "Say 'Hatha kitaab' to mean 'This is a book.'",
-    "Id": 192,
+    "id": 192,
     "difficulty": "medium",
-    "Lesson_no": 4
+    "lesson_no": 4
   },
   {
     "word": "شكرا",
@@ -2118,9 +2118,9 @@
     "part_of_speech": "phrase",
     "when_to_say": "When expressing gratitude",
     "example": "Say 'Shukran' to show appreciation.",
-    "Id": 193,
+    "id": 193,
     "difficulty": "medium",
-    "Lesson_no": 6
+    "lesson_no": 6
   },
   {
     "word": "سلام",
@@ -2129,9 +2129,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 194,
+    "id": 194,
     "difficulty": "medium",
-    "Lesson_no": 10
+    "lesson_no": 10
   },
   {
     "word": "سلام",
@@ -2140,9 +2140,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 195,
+    "id": 195,
     "difficulty": "easy",
-    "Lesson_no": 9
+    "lesson_no": 9
   },
   {
     "word": "سلام",
@@ -2151,9 +2151,9 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 196,
+    "id": 196,
     "difficulty": "medium",
-    "Lesson_no": 2
+    "lesson_no": 2
   },
   {
     "word": "يأكل",
@@ -2162,9 +2162,9 @@
     "part_of_speech": "verb",
     "when_to_say": "When describing eating",
     "example": "Say 'Ana a’kul' to mean 'I am eating.'",
-    "Id": 197,
+    "id": 197,
     "difficulty": "medium",
-    "Lesson_no": 8
+    "lesson_no": 8
   },
   {
     "word": "سعيد",
@@ -2173,9 +2173,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 198,
+    "id": 198,
     "difficulty": "medium",
-    "Lesson_no": 10
+    "lesson_no": 10
   },
   {
     "word": "سعيد",
@@ -2184,9 +2184,9 @@
     "part_of_speech": "adjective",
     "when_to_say": "When describing emotions",
     "example": "Say 'Ana sa’eed' to mean 'I am happy.'",
-    "Id": 199,
+    "id": 199,
     "difficulty": "easy",
-    "Lesson_no": 8
+    "lesson_no": 8
   },
   {
     "word": "سلام",
@@ -2195,8 +2195,8 @@
     "part_of_speech": "noun",
     "when_to_say": "When greeting someone",
     "example": "Say 'Salaam' to greet someone.",
-    "Id": 200,
+    "id": 200,
     "difficulty": "easy",
-    "Lesson_no": 1
+    "lesson_no": 1
   }
 ]
