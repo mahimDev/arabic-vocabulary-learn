@@ -12,7 +12,7 @@ const LessonSection = () => {
             <Helmet>
                 <title>Arabic Lesson | {id} </title>
             </Helmet>
-            <h1>{data.length}</h1>
+
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 {
                     data.map(word => <LessonCard key={word.id} item={word}></LessonCard>)
