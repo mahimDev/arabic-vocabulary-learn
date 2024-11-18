@@ -3,14 +3,49 @@ import SectionTitle from "../../../Shared/SectionTitle/SectionTitle";
 
 const Success = () => {
     return (
-        <div>
+        <div className="">
             <SectionTitle title={"Success"}></SectionTitle>
-            <CountUp
-                className="font-bold text-6xl"
-                duration={5}
-                end={100} />
-        </div>
+            <div className="flex justify-center mt-20">
+                <div className="relative border-b-2 border-indigo-600 rounded-b-[50px]  w-fit pb-14 px-10">
+                    <h1 className="font-bold text-indigo-600 text-7xl">
+
+                        <CountUp
+                            className="ml-3  "
+                            duration={5}
+                            end={100} />
+                        +
+                    </h1>
+                    <h1 className="text-3xl font-semibold absolute right-16 "> User</h1>
+                </div>
+            </div>
+            <div className="flex justify-center gap-36 my-20">
+
+                <div className=" border-b-2 border-indigo-600  rounded-b-[50px] w-fit  px-10">
+                    <h1 className="font-bold text-6xl mb-2 text-indigo-700">
+                        <CountUp
+                            className="ml-3  "
+                            duration={5}
+                            end={10} />
+                        +
+                    </h1>
+                    <h1 className="text-3xl font-semibold ml-10 mb-3"> Lesson</h1>
+                </div>
+                <div className=" border border-indigo-100"></div>
+                <div className="border-b-2 border-indigo-600  rounded-b-[50px] w-fit  px-10">
+                    <h1 className="font-bold text-6xl mb-2 text-indigo-700">
+                        <CountUp
+                            className="ml-3  "
+                            duration={8}
+                            end={20} />
+                        +
+                    </h1>
+                    <h1 className="text-3xl font-semibold  ml-10 mb-3"> Tutorial </h1>
+                </div>
+            </div>
+        </div >
     );
 };
 
 export default Success;
+
+// Success  Section:  Show User Count, Lesson Count vocabulary count, Tutorial Count.  Use Dummy information for Count.  Animate this success count using react-count-up 

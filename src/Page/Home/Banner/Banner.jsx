@@ -8,12 +8,7 @@ const Banner = () => {
     return (
 
         <div>
-            {/* 
-           
 
-
-
-            */}
             <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
                 <SwiperSlide>
                     <img className='h-[83vh] w-full object-cover' src="https://i.ibb.co.com/XDb5dsf/c132f012226563-5630fb3f36e6f.jpg" alt="" />
