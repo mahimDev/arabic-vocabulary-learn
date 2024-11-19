@@ -11,6 +11,7 @@ const Success = () => {
 
                         <CountUp
                             className="ml-3  "
+                            enableScrollSpy={true}
                             duration={5}
                             end={100} />
                         +
@@ -24,6 +25,7 @@ const Success = () => {
                     <h1 className="font-bold text-6xl mb-2 text-indigo-700">
                         <CountUp
                             className="ml-3  "
+                            enableScrollSpy={true}
                             duration={5}
                             end={10} />
                         +
@@ -34,8 +36,9 @@ const Success = () => {
                 <div className="border-b-2 border-indigo-600  rounded-b-[50px] w-fit  px-10">
                     <h1 className="font-bold text-6xl mb-2 text-indigo-700">
                         <CountUp
-                            className="ml-3  "
-                            duration={8}
+                            className="ml-3"
+                            enableScrollSpy={true}
+                            duration={5}
                             end={20} />
                         +
                     </h1>
@@ -48,4 +51,3 @@ const Success = () => {
 
 export default Success;
 
-// Success  Section:  Show User Count, Lesson Count vocabulary count, Tutorial Count.  Use Dummy information for Count.  Animate this success count using react-count-up 

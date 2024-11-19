@@ -6,6 +6,7 @@ import LessonSection from "../Components/LessonSection/LessonSection";
 import Login from "../Page/Log/Login";
 import Register from "../Page/Res/Register";
 import Profile from "../Page/Profile/Profile";
+import Private from "./Private/Private";
 
 const router = createBrowserRouter([
     {
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/lessons/:id',
-                element: <LessonSection></LessonSection>,
+                element: <Private><LessonSection></LessonSection></Private>,
                 loader: () => fetch('../data.json')
             }
         ]
@@ -39,7 +40,7 @@ const router = createBrowserRouter([
     },
     {
         path: '/profile',
-        element: <Profile></Profile>
+        element: <Private> <Profile></Profile></Private>
     },
     {
         path: "*",
