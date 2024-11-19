@@ -29,7 +29,7 @@ const NavBer = () => {
                 console.log(err)
             })
     }
-    console.log(user)
+
     return (
         <div>
             <div className="top-0 sticky z-0 text-white bg-indigo-700 backdrop-blur-xl  py-8 ">

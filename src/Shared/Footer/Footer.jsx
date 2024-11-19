@@ -17,7 +17,7 @@ const Footer = () => {
         {/* Social Media Links */}
         <div className="flex justify-center space-x-4 mb-6 md:mb-0">
           <a
-            href="#"
+            href=""
             className="text-gray-400 hover:text-white transition"
             aria-label="Facebook">
             <svg
@@ -29,7 +29,7 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            href="#"
+            href=""
             className="text-gray-400 hover:text-white transition"
             aria-label="Twitter">
             <svg
@@ -41,7 +41,7 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            href="#"
+            href=""
             className="text-gray-400 hover:text-white transition"
             aria-label="Instagram">
             <svg
