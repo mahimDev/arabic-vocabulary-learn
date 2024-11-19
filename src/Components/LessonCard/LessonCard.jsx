@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import Swal from "sweetalert2";
+import pronounceWord from "../../Utils/utils";
 
 
 const LessonCard = (props = {}) => {
     const { item } = props || {}
     const navigate = useNavigate()
-    const params = useParams()
-    const [color, setColor] = useState('')
+    const [color, setColor] = useState(null)
+    const [b_color, setB_color] = useState('')
     const {
         difficulty,
         example,
@@ -21,16 +22,20 @@ const LessonCard = (props = {}) => {
     } = item
     useEffect(() => {
         if (difficulty === "easy") {
-            setColor("green-600")
+            setColor("bg-green-600")
+            setB_color("border-green-600")
         } else if (difficulty === "medium") {
-            setColor("yellow-600")
+            setColor("bg-yellow-600")
+            setB_color("border-yellow-600")
         } else if (difficulty === "difficult") {
-            setColor("red-600")
+            setColor("bg-red-600")
+            setB_color("border-red-600")
         }
     }, [difficulty])
 
-    console.log(params)
+    console.log(word)
     const handleWordCard = () => {
+        pronounceWord(word || "")
         Swal.fire({
             title: `${word}`,
             color: ``,
@@ -42,13 +47,13 @@ const LessonCard = (props = {}) => {
             showCancelButton: true,
             cancelButtonText: "Back to Lesson",
             showConfirmButton: false
-        }).then(() => navigate(-1));
+        }).then(() => navigate('/lessons'));
 
     }
     return (
         <button onClick={handleWordCard}>
-            <div className={`border-b-4 border-${color} text-center p-8 rounded-se-full rounded-bl-full overflow-auto bg-indigo-50`}>
-                <h1 className={`text-3xl font-bold border bg-${color} rounded-full text-white`}>  {word}</h1>
+            <div className={`border-b-4 ${b_color} text-center p-8 rounded-se-full rounded-bl-full overflow-auto bg-indigo-50`}>
+                <h1 className={`text-3xl font-bold border ${color} rounded-full text-white`}>  {word}</h1>
                 <h1 className="text-base font-medium pt-1">Meaning :  {meaning}</h1>
                 <h1 className="text-base font-medium pt-1">Pronunciation :  {pronunciation}</h1>
                 <h1 className="text-base font-medium pt-1">Part of speech :  {part_of_speech}</h1>

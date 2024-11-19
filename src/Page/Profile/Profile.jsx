@@ -27,7 +27,7 @@ const Profile = () => {
                 .then(() => {
                     Toast.fire({
                         icon: "success",
-                        title: "Signed in successfully"
+                        title: "Updated successfully"
                     });
 
                 })

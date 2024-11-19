@@ -7,6 +7,7 @@ import Login from "../Page/Log/Login";
 import Register from "../Page/Res/Register";
 import Profile from "../Page/Profile/Profile";
 import Private from "./Private/Private";
+import Tutorials from "../Page/Tutorials/Tutorials";
 
 const router = createBrowserRouter([
     {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
                 loader: () => fetch('../data.json')
             }
         ]
+    },
+    {
+        path: '/tutorials',
+        element: <Private><Tutorials></Tutorials></Private>
     },
     {
         path: '/login',

@@ -1,11 +1,12 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Auth/AuthProvider";
 import Swal from "sweetalert2";
 
 const Register = () => {
-    const { createUser, updateUserProfile } = useContext(AuthContext)
+    const { createUser, updateUserProfile, signInWithGoogle } = useContext(AuthContext)
     const navigate = useNavigate()
+    const [error, setError] = useState('')
     const Toast = Swal.mixin({
         toast: true,
         position: "top-end",
@@ -24,6 +25,27 @@ const Register = () => {
         const photo = form.get("photo")
         const email = form.get("email")
         const password = form.get("password")
+        if (password.length < 6) {
+            Toast.fire({
+                icon: "warning",
+                title: "Enter a password of at least 6 characters"
+            })
+
+        } else if (!/[A-Z]/.test(password)) {
+
+            Toast.fire({
+                icon: "warning",
+                title: "The password must include at least one uppercase letter"
+            })
+            return
+        } else if (!/[a-z]/.test(password)) {
+
+            Toast.fire({
+                icon: "warning",
+                title: "The password must include at least one lowercase letter"
+            })
+            return
+        }
         createUser(email, password)
             .then(res => {
                 console.log(res.user)
@@ -44,6 +66,22 @@ const Register = () => {
             .catch(err => {
                 console.log(err.massage)
                 console.log(err.code)
+            })
+    }
+    const handleGoogleBtn = () => {
+        signInWithGoogle()
+            .then(() => {
+                Toast.fire({
+                    icon: "success",
+                    title: "Signed in successfully"
+                }).then(() => navigate("/"))
+            })
+            .catch(err => {
+                Toast.fire({
+                    icon: "error",
+                    title: ` invalid credential `
+                })
+                console.log(err)
             })
     }
     return (
@@ -107,7 +145,10 @@ const Register = () => {
                                 <hr className="flex-1 border-blue-400" />
                             </div>
                             {/* sign with google */}
-                            <button className="group mx-auto flex h-[50px] w-fit items-center overflow-hidden rounded-full shadow-md outline-none ring-1 ring-blue-400">
+                            <button
+
+                                onClick={handleGoogleBtn}
+                                className="group mx-auto flex h-[50px] w-fit items-center overflow-hidden rounded-full shadow-md outline-none ring-1 ring-blue-400">
                                 <div className="relative z-20 flex h-full items-center bg-blue-400 px-4 text-lg text-white duration-300 group-hover:bg-transparent group-hover:text-blue-400">
                                     Sign Up with
                                 </div>

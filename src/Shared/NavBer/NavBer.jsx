@@ -29,7 +29,7 @@ const NavBer = () => {
                 console.log(err)
             })
     }
-    // console.log(user)
+    console.log(user)
     return (
         <div>
             <div className="top-0 sticky z-0 text-white bg-indigo-700 backdrop-blur-xl  py-8 ">
@@ -37,7 +37,7 @@ const NavBer = () => {
                     <ul className="flex gap-4 text-xl  font-semibold">
                         <NavLink> <li>Home</li></NavLink>
                         <NavLink to={`lessons`}><li>Start-learning</li></NavLink>
-                        <NavLink ><li>Tutorials</li></NavLink>
+                        <NavLink to={"tutorials"}><li>Tutorials</li></NavLink>
                         <NavLink ><li>About-us</li></NavLink>
                         {
                             user && <Link to="/profile"><li>Profile</li></Link>
@@ -46,7 +46,7 @@ const NavBer = () => {
                     {
                         user ?
                             <div className="flex items-center gap-4">
-                                <img className="w-12 h-12 object-cover rounded-full" src={user.photoURL} alt="" />
+                                <img className="w-12 h-12 object-cover rounded-full" src={user?.photoURL} alt="" />
                                 <button
                                     onClick={handleLogOutUser}
                                     className="border-2 border-white  py-1 px-3 font-semibold text-xl rounded-md"> Sign Out</button>
