@@ -4,6 +4,8 @@ import About from "../About/About";
 import Success from "../Success/Success";
 import { AuthContext } from "../../../Auth/AuthProvider";
 import Banner from "../Banner/Banner";
+import Footer from "../../../Shared/Footer/Footer.jsx";
+import ChooseSection from "../ChooseSection/ChooseSection.jsx";
 
 const Home = () => {
     const { user } = useContext(AuthContext)
@@ -28,8 +30,12 @@ const Home = () => {
                 <section>
                     <Success></Success>
                 </section>
+                {/* Why Choose Us?  */}
+                <section>
+                    <ChooseSection></ChooseSection>
+                </section>
             </main>
-            <footer></footer>
+            <footer><Footer></Footer></footer>
         </div>
     );
 };

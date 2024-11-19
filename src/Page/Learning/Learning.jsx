@@ -22,7 +22,7 @@ const Learning = () => {
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-10 mt-10 ">
                 {
-                    loader.map(category => <CategoriesCard key={category.Id} category={category}></CategoriesCard>)
+                    loader.map(category => <CategoriesCard key={category.id} category={category}></CategoriesCard>)
                 }
             </div>
             {/* tutorial */}

@@ -59,11 +59,16 @@ const Register = () => {
                         }).then(() => navigate('/'));
                     })
                     .catch(err => {
+
                         console.log(err)
                     })
 
             })
             .catch(err => {
+                Toast.fire({
+                    icon: "error",
+                    title: `email-already-in-use`
+                })
                 console.log(err.massage)
                 console.log(err.code)
             })
@@ -73,7 +78,7 @@ const Register = () => {
             .then(() => {
                 Toast.fire({
                     icon: "success",
-                    title: "Signed in successfully"
+                    title: "Signed Up successfully"
                 }).then(() => navigate("/"))
             })
             .catch(err => {

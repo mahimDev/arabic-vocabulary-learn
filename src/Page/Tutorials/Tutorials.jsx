@@ -58,6 +58,14 @@ const Tutorials = () => {
                             allowfullscreen>
 
                         </iframe>
+                        <iframe
+                            className="mt-10 rounded-2xl mx-auto lg:w-[1000px] md:w-[800px] md:h-[500px]"
+                            src="https://www.youtube.com/embed/dinQIb4ZFXY?si=7mU0Iw-nAOxx6iP7"
+                            title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+
+                        </iframe>
                     </div>
                 </div>
                 <div className=" flex justify-center mb-10 ">

@@ -29,7 +29,7 @@ const Login = () => {
                 Toast.fire({
                     icon: "success",
                     title: "Signed in successfully"
-                }).then(() => navigate(location?.state));
+                }).then(() => navigate(location?.state || "/"));
                 console.log(res.user)
             })
             .catch(err => {

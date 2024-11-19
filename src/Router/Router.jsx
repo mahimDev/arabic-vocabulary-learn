@@ -8,6 +8,7 @@ import Register from "../Page/Res/Register";
 import Profile from "../Page/Profile/Profile";
 import Private from "./Private/Private";
 import Tutorials from "../Page/Tutorials/Tutorials";
+import ErrorPage from "../Page/Error/ErrorPage";
 
 const router = createBrowserRouter([
     {
@@ -49,7 +50,7 @@ const router = createBrowserRouter([
     },
     {
         path: "*",
-        element: <div>error</div>
+        element: <ErrorPage></ErrorPage>
     }
 
 ])

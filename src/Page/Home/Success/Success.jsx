@@ -3,9 +3,9 @@ import SectionTitle from "../../../Shared/SectionTitle/SectionTitle";
 
 const Success = () => {
     return (
-        <div className="">
+        <div className="mt-20">
             <SectionTitle title={"Success"}></SectionTitle>
-            <div className="flex justify-center mt-20">
+            <div className="flex justify-center pt-24">
                 <div className="relative border-b-2 border-indigo-600 rounded-b-[50px]  w-fit pb-14 px-10">
                     <h1 className="font-bold text-indigo-600 text-7xl">
 
@@ -19,7 +19,7 @@ const Success = () => {
                     <h1 className="text-3xl font-semibold absolute right-16 "> User</h1>
                 </div>
             </div>
-            <div className="flex justify-center gap-36 my-20">
+            <div className="flex justify-center gap-48 my-20 pt-10">
 
                 <div className=" border-b-2 border-indigo-600  rounded-b-[50px] w-fit  px-10">
                     <h1 className="font-bold text-6xl mb-2 text-indigo-700">

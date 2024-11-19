@@ -3,7 +3,8 @@ import { createContext, useEffect, useState } from "react";
 import auth from "../Firebase/firebase.config";
 
 export const AuthContext = createContext(null)
-const AuthProvider = ({ children }) => {
+const AuthProvider = (prop = {}) => {
+    const { children } = prop || {}
     const googleProvider = new GoogleAuthProvider()
     const [user, SetUser] = useState(null)
     const [loading, setLoading] = useState(true)
@@ -40,7 +41,7 @@ const AuthProvider = ({ children }) => {
         }
     }, [])
 
-    console.log(user)
+
     const authInfo = {
         user,
         loading,

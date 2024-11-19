@@ -46,7 +46,10 @@ const NavBer = () => {
                     {
                         user ?
                             <div className="flex items-center gap-4">
-                                <img className="w-12 h-12 object-cover rounded-full" src={user?.photoURL} alt="" />
+                                {
+                                    user?.photoURL && <img className="w-12 h-12 object-cover rounded-full" src={user?.photoURL} alt="" />
+
+                                }
                                 <button
                                     onClick={handleLogOutUser}
                                     className="border-2 border-white  py-1 px-3 font-semibold text-xl rounded-md"> Sign Out</button>

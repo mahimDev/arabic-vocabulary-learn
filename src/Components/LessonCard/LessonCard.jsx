@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import pronounceWord from "../../Utils/utils";
 
@@ -33,9 +33,9 @@ const LessonCard = (props = {}) => {
         }
     }, [difficulty])
 
-    console.log(word)
+
     const handleWordCard = () => {
-        pronounceWord(word || "")
+        pronounceWord(word)
         Swal.fire({
             title: `${word}`,
             color: ``,
