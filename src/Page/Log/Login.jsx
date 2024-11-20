@@ -4,9 +4,10 @@ import { AuthContext } from "../../Auth/AuthProvider";
 import Swal from "sweetalert2";
 
 const Login = () => {
-    const { signInUser, signInWithGoogle, passwordReset } = useContext(AuthContext)
+    const { signInUser, signInWithGoogle } = useContext(AuthContext)
     const navigate = useNavigate()
     const location = useLocation()
+    console.log(location)
     const emailRef = useRef()
     console.log(location.state)
     const Toast = Swal.mixin({
@@ -37,7 +38,7 @@ const Login = () => {
             .catch(err => {
                 Toast.fire({
                     icon: "error",
-                    title: ` invalid credential `
+                    title: `invalid credential `
                 })
                 console.log(err.massage)
                 console.log(err.code)
@@ -60,29 +61,10 @@ const Login = () => {
             })
     }
 
-    const resetPassword = () => {
-        const email = emailRef.current.value
-        if (!email) {
-            Toast.fire({
-                icon: "error",
-                title: `Please enter your valid email address`
-            })
-        } else {
-            passwordReset(email)
-                .then(() => {
-                    Toast.fire({
-                        icon: "success",
-                        title: `We’ve sent a password reset link to your registered email address. Please check your inbox `
-                    })
-                })
-                .catch(err => {
-                    console.log(err.massage)
-                    console.log(err.code)
-                })
-        }
-    }
+    console.log(emailRef?.current?.value)
+    console.log(location)
     return (
-        <div className="  mt-48">
+        <div className="  md:mt-48 mt-20">
             <div className="flex lg:w-8/12 mx-auto  h-full items-center justify-center md:p-0">
                 <div className="flex h-full w-full overflow-hidden rounded-xl shadow-md">
                     {/* design side  */}
@@ -124,7 +106,7 @@ const Login = () => {
                             </button>
                         </form>
                         <div className="text-center mt-3">
-                            <button onClick={resetPassword}>
+                            <button onClick={() => navigate('/forgetPassword')}>
                                 <p className="text-[14px] text-indigo-400 border-b border-indigo-400 w-fit">
                                     Forget Password
                                 </p></button>

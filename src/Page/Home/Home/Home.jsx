@@ -14,10 +14,20 @@ const Home = () => {
     AOS.init()
     const { user } = useContext(AuthContext)
     return (
-        <div className="w-11/12 mx-auto">
+        <div className="md:w-11/12 mx-auto">
             <header className=" h-[100vh]  ">
                 {
-                    user && <h1 className="text-2xl text-center py-3 animate__animated animate__bounce animate__repeat-2 text-indigo-400">Welcome to Arabic Vocabulary {user?.displayName} 😊</h1>
+                    user
+                    &&
+                    <div>
+                        <h1 className="text-2xl text-center py-3 animate__animated animate__bounce animate__repeat-2 text-indigo-400 hidden lg:block"
+                        >Welcome to Arabic Vocabulary {user?.displayName} 😊
+                        </h1>
+                        <h1 className="text-2xl text-center py-3 animate__animated animate__bounce animate__repeat-2 text-indigo-400 lg:hidden block"
+                        >Hi {user?.displayName} 😊
+                        </h1>
+                    </div>
+
                 }
                 <nav>
                     <NavBer></NavBer>

@@ -1,23 +1,18 @@
 const pronounceWord = (word) => {
   const utterance = new SpeechSynthesisUtterance(word);
-  utterance.lang = "ar-AE"; // Arabic language
+  utterance.lang = "ar-SA"; // Arabic language
   window.speechSynthesis.speak(utterance);
-  console.log("Speech");
 };
-
-// function pronounceWord(word) {
-//   const utterance = new SpeechSynthesisUtterance(word);
-//   utterance.lang = "ja-JP"; // Japanese
-//   window.speechSynthesis.speak(utterance);
-// }
 
 const synth = window.speechSynthesis;
 const speechHandler = (resultText) => {
   const utterThis = new SpeechSynthesisUtterance(resultText);
-  utterThis.lang = "ar-AE";
+  utterThis.lang = "en-US";
   synth.speak(utterThis);
 };
 
-export default speechHandler;
+export { pronounceWord, speechHandler };
 
 // utterThis.lang = 'ar-AE';
+// utterThis.lang = 'ar-SA';
+// utterThis.lang = 'ar';

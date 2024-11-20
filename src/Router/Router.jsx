@@ -9,6 +9,7 @@ import Profile from "../Page/Profile/Profile";
 import Private from "./Private/Private";
 import Tutorials from "../Page/Tutorials/Tutorials";
 import ErrorPage from "../Page/Error/ErrorPage";
+import ForgetPass from "../Page/ForgetPass/ForgetPass";
 
 const router = createBrowserRouter([
     {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
     {
         path: '/register',
         element: <Register></Register>
+    },
+    {
+        path: '/forgetPassword',
+        element: <ForgetPass></ForgetPass>
     },
     {
         path: '/profile',
