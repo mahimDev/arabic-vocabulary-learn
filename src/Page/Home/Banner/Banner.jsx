@@ -2,7 +2,7 @@ import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-
+import Snowfall from 'react-snowfall'
 // import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 const Banner = () => {
     return (
@@ -13,6 +13,12 @@ const Banner = () => {
 
             <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
                 <SwiperSlide>
+                    <Snowfall
+                        radius={[0.4, 3.0]}
+                        speed={[1.0, 1.0]}
+                        wind={[-0.2, 2.0]}
+                        snowflakeCount={30}
+                    ></Snowfall>
                     <img className='h-[83vh] w-full object-cover' src="https://i.ibb.co.com/frb7PvM/pngtree-ramadan-islamic-background-white-and-blue-with-arabic-pattern-and-lantern-image-15577435.png" alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
