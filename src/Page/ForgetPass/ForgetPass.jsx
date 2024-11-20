@@ -96,7 +96,7 @@ const ForgetPass = () => {
                                 />
 
                                 <p className="text-[14px] text-gray-400">
-                                    Do not have an account ? <Link to='/register' className="text-indigo-400 border-b border-indigo-400">Create one</Link>
+                                    If your password has been updated. go to the <Link to='/register' className="text-indigo-400 border-b border-indigo-400">Login</Link>
                                 </p>
                                 <button className="uppercase w-[80%] rounded-lg bg-indigo-400 px-6 py-2 font-medium text-white outline-none hover:bg-indigo-500 md:w-[60%]" type="submit">
                                     Update Password

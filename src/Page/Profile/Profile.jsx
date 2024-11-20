@@ -6,7 +6,7 @@ import { Helmet } from "react-helmet";
 
 const Profile = () => {
     const { user, updateUserProfile } = useContext(AuthContext)
-    const [showInput, setShowInput] = useState(true)
+    const [showInput, setShowInput] = useState(false)
     const Toast = Swal.mixin({
         toast: true,
         position: "top-end",

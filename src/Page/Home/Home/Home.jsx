@@ -10,6 +10,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'animate.css';
 import { Helmet } from "react-helmet";
+import MarqueeSection from "../Marquee/MarqueeSection.jsx";
 
 const Home = () => {
     AOS.init()
@@ -51,6 +52,10 @@ const Home = () => {
                 {/* Why Choose Us?  */}
                 <section>
                     <ChooseSection></ChooseSection>
+                </section>
+                {/* MarqueeSection */}
+                <section>
+                    <MarqueeSection></MarqueeSection>
                 </section>
             </main>
             <footer><Footer></Footer></footer>

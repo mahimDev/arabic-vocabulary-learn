@@ -47,7 +47,7 @@ const LessonCard = (props = {}) => {
             <p>example : ${example} </p>
             </div>` ,
             showCancelButton: true,
-            cancelButtonText: "Back to Lesson",
+            cancelButtonText: "Close",
             showConfirmButton: false
         });
 

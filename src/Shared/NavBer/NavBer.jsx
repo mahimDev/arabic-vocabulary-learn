@@ -1,13 +1,13 @@
-import { useContext, useEffect, useRef, useState } from "react";
+import { useContext, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../../Auth/AuthProvider";
 import Swal from "sweetalert2";
-import { FaRegHandPointer } from "react-icons/fa";
 import { BsFillMenuButtonWideFill } from "react-icons/bs";
+import { RiCloseLargeLine } from "react-icons/ri";
 
 const NavBer = () => {
     const { user, signOutUser } = useContext(AuthContext)
-    const [showNav, setShowNav] = useState(true)
+
     const Toast = Swal.mixin({
         toast: true,
         position: "top-end",
@@ -28,13 +28,13 @@ const NavBer = () => {
                     title: "Sign Out successfully"
                 });
             })
-            .catch(err => {
-                console.log(err)
+            .catch(() => {
+
             })
     }
 
     // 
-    const [open, setOpen] = useState(true)
+    const [open, setOpen] = useState(false)
     const nav = <>
         <NavLink> <li>Home</li></NavLink>
         <NavLink to={`lessons`}><li>Start-learning</li></NavLink>
@@ -55,7 +55,7 @@ const NavBer = () => {
                             <div className={`md:hidden text-xl bg-indigo-500 text-white py-2 px-4 rounded-md `
                             } onClick={() => setOpen(!open)}>
                                 {
-                                    open === true ? <FaRegHandPointer /> :
+                                    open === true ? <RiCloseLargeLine /> :
                                         <BsFillMenuButtonWideFill className=" " />
                                 }
 

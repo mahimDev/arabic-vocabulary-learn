@@ -7,7 +7,7 @@ const LessonSection = () => {
     const loader = useLoaderData()
     const { id } = useParams()
     const data = loader.filter(item => item.lesson_no === parseInt(id))
-
+    console.log(loader)
     return (
         <div className="w-11/12 mx-auto mt-20">
             <Helmet>
