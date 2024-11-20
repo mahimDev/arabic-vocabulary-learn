@@ -1,4 +1,4 @@
-# ([Arabic Vocabulary](https://arabic-vocabulary-94d04.web.app/))
+# [Arabic Vocabulary](https://arabic-vocabulary-94d04.web.app/)
 
 #### Our Purpose
 
@@ -23,13 +23,8 @@ Focus on words and phrases that are useful in daily life, travel, and profession
 #### npm packages i have used
 
 👉react-router-dom
-
 👉react-aos
-
 👉react-animation
-
 👉react-helmet
-
 👉react-icons
-
 👉swiper
