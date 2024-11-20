@@ -60,7 +60,7 @@ const NavBer = () => {
                                 }
 
                             </div>
-                            <ul className={`md:flex absolute z-[500] md:static bg-indigo-500 text-white p-3 duration-1000 left-0 rounded-br-md ${open ? 'top-28 ' : '-top-60'} `}>
+                            <ul className={`md:flex absolute z-[500] md:static bg-indigo-500 text-white p-3 duration-1000 left-0 rounded-br-md ${open ? `${user ? 'top-[112px]' : 'top-[104px] '} ` : '-top-60'} `}>
                                 {
                                     nav
                                 }
