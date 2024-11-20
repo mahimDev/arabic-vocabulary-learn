@@ -6,14 +6,15 @@ import Loading from "../../Components/Loading/Loading";
 const Private = ({ children }) => {
     const { user, loading } = useContext(AuthContext)
     const location = useLocation()
-    console.log(location)
+    const path = location?.pathname
+
     if (loading) {
         return <Loading></Loading>
     }
     if (user) {
         return children
     }
-    return <Navigate state={location?.pathname} to={'/login'}></Navigate>
+    return <Navigate state={{ path }} to={'/login'}></Navigate>
 };
 
 export default Private;

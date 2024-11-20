@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div className="mt-20">
             <SectionTitle title={"About"}></SectionTitle>
-            <div className="grid grid-cols-1   lg:grid-cols-6  my-20 p-10">
+            <div className="grid grid-cols-1   lg:grid-cols-6  my-20 md:p-10">
                 <div className="col-span-3">
                     <div className="relative  flex  justify-center ">
                         <p className="w-2/3   h-fit mt-10 text-xl bg-indigo-50 shadow-lg  p-10 rounded-2xl text-right" dir="rtl" >
@@ -12,7 +12,7 @@ const About = () => {
                         </p>
                         <img className="w-20 h-20 rounded-full absolute right-28" src="https://img.icons8.com/?size=100&id=nKihb6jsTa5l&format=png&color=000000" alt="" />
                     </div>
-                    <div className="relative  flex  justify-center pt-10">
+                    <div className="relative  flex  justify-center py-10">
                         <p className="w-2/3  h-fit mt-10 text-lg bg-indigo-50 shadow-lg  p-10 rounded-2xl " >
                             At Arabic Vocabulary, our mission is to make learning the Arabic language accessible, engaging, and effective for everyone. Founded with a passion for language and education, we have dedicated ourselves to providing high-quality resources to learners of all levels.
                         </p>

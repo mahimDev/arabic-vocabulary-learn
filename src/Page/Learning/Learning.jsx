@@ -6,9 +6,9 @@ import SectionTitle from "../../Shared/SectionTitle/SectionTitle";
 const Learning = () => {
     const loader = useLoaderData()
     return (
-        <div className="w-11/12 mx-auto mt-20">
+        <div className="w-11/12 mx-auto mt-20 ">
             <Link to={'/'}>  <div
-                className="flex w-fit cursor-pointer  bg-indigo-600 mt-10 p-2 gap-2 pr-5 rounded-full">
+                className="flex w-fit cursor-pointer  bg-indigo-600 mt-10 p-2 gap-2 pr-5 rounded-full mb-10 md:mb-0">
                 <div className="rounded-full bg-white  ">
                     <img className="p-2 w-10 " src="https://img.icons8.com/?size=100&id=67PYaLe1snSm&format=png&color=000000" alt="" />
                 </div>
@@ -26,12 +26,12 @@ const Learning = () => {
                 }
             </div>
             {/* tutorial */}
-            <div className="my-36">
+            <div className="md:my-36 my-20">
                 <SectionTitle title={"Tutorial"}></SectionTitle>
             </div>
-            <div className="flex my-8">
+            <div className="lg:flex my-8">
                 <iframe
-                    className="rounded-2xl mx-auto  md:w-[800px] md:h-[400px] "
+                    className="rounded-2xl mx-auto  md:w-[800px] md:h-[400px] mb-5 lg:mb-0 "
                     src="https://www.youtube.com/embed/XC62pWvw4b0?si=VTjrM3zB22AcrQPw"
                     title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

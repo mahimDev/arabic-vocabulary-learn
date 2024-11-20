@@ -9,12 +9,16 @@ import ChooseSection from "../ChooseSection/ChooseSection.jsx";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'animate.css';
+import { Helmet } from "react-helmet";
 
 const Home = () => {
     AOS.init()
     const { user } = useContext(AuthContext)
     return (
         <div className="md:w-11/12 mx-auto">
+            <Helmet>
+                <title>Arabic | Home</title>
+            </Helmet>
             <header className=" h-[100vh]  ">
                 {
                     user

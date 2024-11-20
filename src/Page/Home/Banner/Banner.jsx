@@ -7,11 +7,11 @@ import 'swiper/css/pagination';
 const Banner = () => {
     return (
 
-        <div>
+        <div className='z-0'>
 
             <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
                 <SwiperSlide>
-                    <img className='h-[83vh] w-full object-cover' src="https://i.ibb.co.com/XDb5dsf/c132f012226563-5630fb3f36e6f.jpg" alt="" />
+                    <img className=' h-[83vh] w-full object-cover' src="https://i.ibb.co.com/XDb5dsf/c132f012226563-5630fb3f36e6f.jpg" alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img className='h-[83vh] w-full object-cover' src="https://i.ibb.co.com/2c3xpGs/65ac06543aa7bee4c6bbceb549e31838.jpg" alt="" />

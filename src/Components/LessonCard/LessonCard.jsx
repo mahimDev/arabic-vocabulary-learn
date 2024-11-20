@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import { pronounceWord } from "../../Utils/utils";
 
 
 const LessonCard = (props = {}) => {
     const { item } = props || {}
-    const navigate = useNavigate()
+    // const navigate = useNavigate()
     const [color, setColor] = useState(null)
     const [b_color, setB_color] = useState('')
     const {

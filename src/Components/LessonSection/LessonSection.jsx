@@ -16,6 +16,7 @@ const LessonSection = () => {
 
             <div className=" ">
                 <Link to={'/lessons'}>  <div
+
                     className="flex w-fit cursor-pointer  bg-indigo-600  p-2 gap-2 pr-5 rounded-full">
                     <div className="rounded-full bg-white  ">
                         <img className="p-2 w-10 " src="https://img.icons8.com/?size=100&id=67PYaLe1snSm&format=png&color=000000" alt="" />

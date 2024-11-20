@@ -1,15 +1,18 @@
-import { useContext, useRef } from "react";
+import { useContext, useRef, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Auth/AuthProvider";
 import Swal from "sweetalert2";
+import { Helmet } from "react-helmet";
 
 const Login = () => {
     const { signInUser, signInWithGoogle } = useContext(AuthContext)
     const navigate = useNavigate()
-    const location = useLocation()
-    console.log(location)
-    const emailRef = useRef()
-    console.log(location.state)
+    const { state } = useLocation()
+    const { path } = state || {}
+    const [email, setEmail] = useState("")
+    // const emailRef = useRef(null)
+    // const forgetEmail = emailRef?.current?.value
+    // console.log(email)
     const Toast = Swal.mixin({
         toast: true,
         position: "top-end",
@@ -26,12 +29,13 @@ const Login = () => {
         const form = new FormData(e.target)
         const email = form.get("email")
         const password = form.get("password")
+
         signInUser(email, password)
             .then(res => {
                 Toast.fire({
                     icon: "success",
                     title: "Signed in successfully"
-                }).then(() => navigate(location?.state || "/"));
+                }).then(() => navigate(path || "/"));
                 e.target.reset()
                 console.log(res.user)
             })
@@ -50,7 +54,7 @@ const Login = () => {
                 Toast.fire({
                     icon: "success",
                     title: "Signed in successfully"
-                }).then(() => navigate(location?.state || "/"))
+                }).then(() => navigate(path || "/"))
             })
             .catch(err => {
                 Toast.fire({
@@ -61,10 +65,14 @@ const Login = () => {
             })
     }
 
-    console.log(emailRef?.current?.value)
-    console.log(location)
+
+
+
     return (
         <div className="  md:mt-48 mt-20">
+            <Helmet>
+                <title>Arabic | Login</title>
+            </Helmet>
             <div className="flex lg:w-8/12 mx-auto  h-full items-center justify-center md:p-0">
                 <div className="flex h-full w-full overflow-hidden rounded-xl shadow-md">
                     {/* design side  */}
@@ -89,7 +97,8 @@ const Login = () => {
                                 type="email"
                                 placeholder="Email"
                                 name="email"
-                                ref={emailRef}
+                                // ref={emailRef}
+                                onChange={(e) => setEmail(e.target.value)}
                             />
                             <input
                                 className="w-[80%] rounded-lg border border-indigo-400 bg-transparent py-2 pl-4 text-zinc-600 focus:outline-none focus:ring-2 focus:ring-blue-300/50 md:w-[60%] dark:text-zinc-400"
@@ -97,6 +106,16 @@ const Login = () => {
                                 placeholder="Password"
                                 name="password"
                             />
+                            <div className="text-center mt-3">
+                                {/* */}
+                                {/*onClick={() => navigate('/forgetPassword', { state: forgetEmail })}*/}
+                                <button type="submit">
+                                    <Link to={'/forgetPassword'} state={{ email: email || "" }} >
+                                        <p className="text-[14px] text-indigo-400 border-b border-indigo-400 w-fit">
+                                            Forget Password
+                                        </p></Link>
+                                </button>
+                            </div>
 
                             <p className="text-[14px] text-gray-400">
                                 Do not have an account ? <Link to='/register' className="text-indigo-400 border-b border-indigo-400">Create one</Link>
@@ -105,12 +124,8 @@ const Login = () => {
                                 Sign In
                             </button>
                         </form>
-                        <div className="text-center mt-3">
-                            <button onClick={() => navigate('/forgetPassword')}>
-                                <p className="text-[14px] text-indigo-400 border-b border-indigo-400 w-fit">
-                                    Forget Password
-                                </p></button>
-                        </div>
+
+
                         {/* divider  */}
                         <div className="my-8 flex items-center px-8">
                             <hr className="flex-1 border-indigo-400" />
@@ -130,8 +145,8 @@ const Login = () => {
                         </button>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div >
+        </div >
     );
 };
 

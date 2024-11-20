@@ -1,10 +1,14 @@
 import { useContext } from "react";
 import { AuthContext } from "../../Auth/AuthProvider";
 import Swal from "sweetalert2";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const ForgetPass = () => {
     const { passwordReset } = useContext(AuthContext)
+
+    const { state } = useLocation()
+    const { email } = state || ""
     const Toast = Swal.mixin({
         toast: true,
         position: "top-end",
@@ -16,6 +20,7 @@ const ForgetPass = () => {
             toast.onmouseleave = Swal.resumeTimer;
         }
     });
+
     const resetPassword = e => {
         e.preventDefault();
         const form = new FormData(e.target)
@@ -43,7 +48,19 @@ const ForgetPass = () => {
     }
     return (
         <div>
-            <div className="  mt-48">
+            <Helmet>
+                <title>Arabic | Forget Password</title>
+            </Helmet>
+            <div className=" mt-20 ">
+                <div className=" w-11/12 mx-auto mb-32">
+                    <Link to={'/'}>  <div
+                        className="flex w-fit cursor-pointer  bg-indigo-600  p-2 gap-2 pr-5 rounded-full">
+                        <div className="rounded-full bg-white  ">
+                            <img className="p-2 w-10 " src="https://img.icons8.com/?size=100&id=67PYaLe1snSm&format=png&color=000000" alt="" />
+                        </div>
+                        <button className="font-bold text-white">Go to Home</button>
+                    </div></Link>
+                </div>
                 <div className="flex lg:w-8/12 mx-auto  h-full items-center justify-center md:p-0">
                     <div className="flex h-full w-full overflow-hidden rounded-xl shadow-md">
                         {/* design side  */}
@@ -67,6 +84,7 @@ const ForgetPass = () => {
                                     className="w-[80%] rounded-lg border border-indigo-400 bg-transparent py-2 pl-4 text-zinc-600 focus:outline-none focus:ring-2 focus:ring-blue-300/50 md:w-[60%] dark:text-zinc-400"
                                     type="email"
                                     placeholder="Email"
+                                    value={email}
                                     name="email"
 
                                 />
@@ -84,10 +102,6 @@ const ForgetPass = () => {
                                     Update Password
                                 </button>
                             </form>
-
-
-
-
                         </div>
                     </div>
                 </div>

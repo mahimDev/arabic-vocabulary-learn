@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom";
 import SectionTitle from "../../Shared/SectionTitle/SectionTitle";
+import { Helmet } from "react-helmet";
 
 const Tutorials = () => {
     return (
         <>
+            <Helmet>
+                <title>Arabic | Tutorial</title>
+            </Helmet>
             <div className="w-11/12  mx-auto md:pt-20 md:mt-10 p-5 mt-5 rounded-xl bg-indigo-50 ">
                 <div className="mb-16">
                     <SectionTitle title={"Tutorials"}></SectionTitle>

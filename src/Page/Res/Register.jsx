@@ -2,6 +2,7 @@ import { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Auth/AuthProvider";
 import Swal from "sweetalert2";
+import { Helmet } from "react-helmet";
 
 const Register = () => {
     const { createUser, updateUserProfile, signInWithGoogle } = useContext(AuthContext)
@@ -25,21 +26,23 @@ const Register = () => {
         const photo = form.get("photo")
         const email = form.get("email")
         const password = form.get("password")
+
         if (password.length < 6) {
             Toast.fire({
                 icon: "warning",
                 title: "Enter a password of at least 6 characters"
             })
+            return
 
         } else if (!/[A-Z]/.test(password)) {
-
+            // setError('The password must include at least one uppercase letter')
             Toast.fire({
                 icon: "warning",
                 title: "The password must include at least one uppercase letter"
             })
             return
         } else if (!/[a-z]/.test(password)) {
-
+            // setError('The password must include at least one lowercase letter')
             Toast.fire({
                 icon: "warning",
                 title: "The password must include at least one lowercase letter"
@@ -65,9 +68,11 @@ const Register = () => {
 
             })
             .catch(err => {
+                const massage = err?.message.split("/")[1].replace(").", "")
+                setError(massage)
                 Toast.fire({
                     icon: "error",
-                    title: `email-already-in-use`
+                    title: `${error}`
                 })
                 console.log(err.massage)
                 console.log(err.code)
@@ -82,16 +87,20 @@ const Register = () => {
                 }).then(() => navigate("/"))
             })
             .catch(err => {
-                Toast.fire({
-                    icon: "error",
-                    title: ` invalid credential `
-                })
+                setError('invalid credential')
+                // Toast.fire({
+                //     icon: "error",
+                //     title: `  `
+                // })
                 console.log(err)
             })
     }
     return (
         <div>
-            <div className="  mt-48">
+            <Helmet>
+                <title>Arabic | Register</title>
+            </Helmet>
+            <div className="  md:mt-48 mt-20">
                 <div className="flex lg:w-8/12 mx-auto  h-full items-center justify-center md:p-0">
                     <div className="flex h-full w-full overflow-hidden rounded-xl shadow-md">
                         {/* design side  */}

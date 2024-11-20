@@ -4,7 +4,7 @@ const ChooseSection = () => {
     return (
         <div className='my-40'>
             <div className='my-20 text-center'>
-                <h1 className="text-6xl text-indigo-700 font-bold ">    Why Choose Us?</h1>
+                <h1 className="md:text-6xl text-5xl text-indigo-700 font-bold ">    Why Choose Us?</h1>
             </div>
             <div
 
