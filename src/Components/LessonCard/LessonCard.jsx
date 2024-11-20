@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
-import pronounceWord from "../../Utils/utils";
+import speechHandler from "../../Utils/utils";
 
 
 const LessonCard = (props = {}) => {
@@ -35,13 +35,15 @@ const LessonCard = (props = {}) => {
 
 
     const handleWordCard = () => {
-        pronounceWord(word)
+        // pronounceWord('مرحبا')
+        speechHandler(word)
         Swal.fire({
             title: `${word}`,
-            color: ``,
+            color: `white`,
+            background: `#4A00E0`,
             html: `<div>  
-            <h1>Meaning : ${meaning}  </h1>
-            <p>when_to_say : ${when_to_say} </p>
+            <h1 >Meaning : ${meaning}  </h1>
+            <p className="text-base font-bold py-3">when_to_say : ${when_to_say} </p>
             <p>example : ${example} </p>
             </div>` ,
             showCancelButton: true,
