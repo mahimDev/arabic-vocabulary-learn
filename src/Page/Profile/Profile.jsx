@@ -33,7 +33,7 @@ const Profile = () => {
                     setShowInput(false)
                 })
                 .catch(err => {
-                    console.log(err)
+
                 })
             return
         }

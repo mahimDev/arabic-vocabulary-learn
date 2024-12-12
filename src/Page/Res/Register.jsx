@@ -51,11 +51,11 @@ const Register = () => {
         }
         createUser(email, password)
             .then(res => {
-                console.log(res.user)
+
                 updateUserProfile(name, photo)
                     // https://i.ibb.co.com/8jgxL1r/ktui9ghktfvyr0ufexff.jpg
                     .then(() => {
-                        console.log("updated profile")
+
                         Toast.fire({
                             icon: "success",
                             title: "Register successfully"
@@ -63,7 +63,7 @@ const Register = () => {
                     })
                     .catch(err => {
 
-                        console.log(err)
+
                     })
 
             })
@@ -74,8 +74,7 @@ const Register = () => {
                     icon: "error",
                     title: `${error}`
                 })
-                console.log(err.massage)
-                console.log(err.code)
+
             })
     }
     const handleGoogleBtn = () => {
@@ -92,7 +91,7 @@ const Register = () => {
                 //     icon: "error",
                 //     title: `  `
                 // })
-                console.log(err)
+
             })
     }
     return (

@@ -12,7 +12,7 @@ const Login = () => {
     const [email, setEmail] = useState("")
     // const emailRef = useRef(null)
     // const forgetEmail = emailRef?.current?.value
-    // console.log(email)
+
     const Toast = Swal.mixin({
         toast: true,
         position: "top-end",
@@ -37,15 +37,14 @@ const Login = () => {
                     title: "Signed in successfully"
                 }).then(() => navigate(path || "/"));
                 e.target.reset()
-                console.log(res.user)
+
             })
             .catch(err => {
                 Toast.fire({
                     icon: "error",
                     title: `invalid credential `
                 })
-                console.log(err.massage)
-                console.log(err.code)
+
             })
     }
     const handleGoogleBtn = () => {
@@ -61,7 +60,7 @@ const Login = () => {
                     icon: "error",
                     title: ` invalid credential `
                 })
-                console.log(err)
+
             })
     }
 

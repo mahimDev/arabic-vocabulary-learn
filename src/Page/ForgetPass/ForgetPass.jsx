@@ -41,8 +41,7 @@ const ForgetPass = () => {
                     })
                 })
                 .catch(err => {
-                    console.log(err.massage)
-                    console.log(err.code)
+
                 })
         }
     }
