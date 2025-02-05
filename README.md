@@ -99,14 +99,15 @@ SweetAlert2, React Icons, React Fast Marquee
 1️⃣ **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/mahimDev/arabic-vocabulary-learn.git
+
 
 ```
 
 2️⃣ **Navigate to the project directory**
 
 ```bash
-cd your-project
+cd arabic-vocabulary-learn
 
 ```
 
